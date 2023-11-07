@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const chartConfig = {
         type: "line",
         data: chartData,
+        
     };
 
     const chart = new Chart(chartCanvas, chartConfig);

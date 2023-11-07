@@ -64,8 +64,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
+    margin: 1rem 10%;
     height: 35vh;
+    
     
 }
 .grafico canvas{
@@ -73,6 +75,7 @@ header{
     border-radius: 5px;
     padding: 20px;
     border: solid 3px #00eaff;
+    width: 100%;
 }
 @media  screen and (max-width: 656px){
     .grafico {
