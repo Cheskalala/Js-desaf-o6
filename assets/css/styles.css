@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    font-size: x-large;
+}
+.contenedor-moneda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    gap: 1rem;
+    height: 30vh;
+}
+.contenedor-moneda input{
+    padding: 5px 55px ;
+    border-radius: 5px;
+    border: solid 3px #00eaff;
+    background: #4c4c4c;
+    color: #fff;
+    text-align: center;
+}
+.contenedor-moneda button{
+    padding: 5px 15px ;
+    border-radius: 5px;
+    background: #00eaff;
+    border: solid 3px #00eaff;
+
+}
+.monedas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    gap:1rem ;
+}
+.monedas select{
+    padding: 5px 15px ;
+    border: solid 3px #00eaff;
+    background: #4c4c4c;
+    color: #fff;
+}
+.grafico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+    
+}
+.grafico canvas{
+    background: #163b34;
+    border-radius: 5px;
+    padding: 20px;
+    border: solid 3px #00eaff;
+}
